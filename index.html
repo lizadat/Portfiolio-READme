@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Liza's Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="intro flip-on-hover">Yelyzaveta Datsenko Portfolio</div>
+
+    <div class="about_short flip-on-hover">
+      Welcome to my website! It's Liza! I am a student at New York University in
+      Abu Dhabi, currently - second year. My major is Interactive Media and in
+      addition to that I minor in Computer Science. I am passionate about art
+      and technology along with programming and designing.Feel free to navigate
+      my website and take a look at my works!
+    </div>
+
+    <div class="hello-button-container">
+      <button
+        type="button"
+        class="hello-button flip-on-hover"
+        onclick="scrollToProjects()"
+      >
+        ↓
+      </button>
+    </div>
+
+    <div class="project-container hidden">
+      <div class="project">
+        <a href="https://lizadat.github.io/FirstWebsite_CommLab/"
+          ><img src="images/Assignment1.png"
+        /></a>
+        <h5>
+          Assignment #1: Personal website! I shoot the video-story with me
+          groupmates and created my personal website to host it.
+        </h5>
+      </div>
+      <div class="project">
+        <a href="https://basil-ahmed.github.io/CommunicationsLab/TheFalcons/"
+          ><img src="images/Assignment2.png"
+        /></a>
+        <h5>
+          Assignment #2: Comics! My team created 6 comic stories, where I worked
+          on the designing each part and storytelling.
+        </h5>
+      </div>
+      <div class="project">
+        <a href="https://vsharkovski.github.io/commlab-sound/"
+          ><img src="images/Assignment3.png"
+        /></a>
+        <h5>
+          Assignment #3: Audio!My group recorded what we often hear on campus
+          and composed it in a recording - a day of the student.
+        </h5>
+      </div>
+      <div class="project">
+        <a href="https://hindahhmed.github.io/Video-Project/"
+          ><img src="images/Assignment4.png"
+        /></a>
+        <h5>
+          Assignment #4: Video! It gives a few lifehacks on how to live at
+          NYUAD, was shoot and edited by my team.
+        </h5>
+      </div>
+    </div>
+    <div class="end_short flip-on-hover hidden">
+      I hope you liked my presented works! If you have any questions - email at
+      yyd2002@nyu.edu!
+    </div>
+    <div class="hello-button-container bottom-button">
+      <button
+        type="button"
+        class="hello-button flip-on-hover hidden"
+        onclick="scrollToBeginning()"
+      >
+        ↑
+      </button>
+    </div>
+    <h4 class="copyright hidden">
+      © Liza Datsenko, Portfolio, 2022. All Rights Reserved.
+    </h4>
+    <script src="sketch.js"></script>
+  </body>
+</html>

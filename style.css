@@ -1,0 +1,161 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+/*   background-color: white; */
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+div {
+  font-size: 20px;
+}
+
+.intro {
+/*   position: relative; */
+  font-size: 35px;
+  width: 70%;
+  height: 80%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 1rem;
+}
+
+.about_short {
+  font-size: auto;
+  line-height: 33px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  height: 70%;
+  width: 70%;
+  display: block;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.end_short {
+  font-size: auto;
+  line-height: 33px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  height: 70%;
+  width: 70%;
+  display: block;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.project-container {
+  display: block;
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+@media (min-width: 576px) {
+  .project-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0.5rem;
+  }
+}
+
+.project {
+  margin: auto;
+  background: black;
+  width: 100%;
+/*   height: 300px; */
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project a {
+  display: flex;
+}
+
+.project img {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.project img:hover {
+  width: 65%;
+  border: 5px solid white;
+  /*   padding:1rem; */
+}
+
+.hello-button-container {
+  display: flex;
+}
+
+.hello-button {
+  margin: 2rem auto 2rem auto;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3rem;
+  border-radius: 0.25rem;
+  transition: 0.1s padding ease-in-out;
+}
+
+.hello-button:hover {
+  padding: 0.6rem 2rem 1rem 2rem;
+}
+
+.flip-on-hover {
+  background-color: white;
+  color: black;
+}
+
+.flip-on-hover:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.project h5 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.copyright {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+}
+
+.bottom-button {
+  margin-bottom: 3rem;
+}
+
+.hidden {
+  display: none;
+}
